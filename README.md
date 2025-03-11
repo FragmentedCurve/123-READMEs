@@ -6,6 +6,6 @@ markdown is github friendly.
 
 To use this elisp script, add the following target to your Makefile,
 
-README README.md: README.org
-       emacs -Q &#x2013;batch &#x2013;script readme.el
+    README README.md: README.org
+            emacs -Q --batch --script readme.el
 
