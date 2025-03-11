@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for f in `git diff --name-only --staged`; do
+    if [ "README.org" = "$f" ]; then
+	make README
+	git add README README.md
+	break
+    fi
+done
