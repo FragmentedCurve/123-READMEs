@@ -23,7 +23,7 @@
 ;;; Makefile,
 ;;;
 ;;;     README README.md: README.org
-;;;	    emacs -Q --batch --script readme.el
+;;;         emacs -Q --batch --script readme.el
 ;;;
 
 (with-temp-buffer
